@@ -119,18 +119,30 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Sección Tech */
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 16px;
+  gap: 1.5rem;
   text-align: center;
 }
+
 .tech img {
   width: 40px;
+  height: auto;
+  margin-bottom: 0.5rem;
   transition: transform 0.2s ease-in-out;
 }
+
 .tech img:hover {
   transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.tech p {
+  font-size: 0.9rem;
+  margin: 0;
 }
 
 .card-container {
